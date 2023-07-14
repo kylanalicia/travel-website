@@ -1,0 +1,148 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+:root{
+    --orange:#ffA500 ;
+}
+
+*{
+    font-family: 'Nunito', san-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline:none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--orange);
+    color: #fff;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.2rem 9%;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header .logo span{
+    color: var(--orange);
+}
+
+header .navbar a{
+    color:#fff;
+    font-size: 2rem;
+    margin: 0 .8rem;
+}
+
+header .navbar a:hover{
+    color: var(--orange);
+}
+
+header .icons i{
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+header .icons i:hover{
+    color: var(--orange);
+}
+
+header .serach-bar-container{
+    position: absolute;
+    top:100%; left: 0; right:0;
+    padding: 1.5rem 2rem;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* *::selection{
+    background-color: var(--main-color);
+    color:var(--black);
+}
+
+*::-webkit-scrollbar{
+    height: .5em;
+    width: 1em;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(white);
+}
+
+body{
+    background-color: var(black);
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+/*navigation bar styling*/
+/* header {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 100px;
+} */
+
+/* .logo {
+    color: black;
+    font-size: 1em;
+    font-style: italic;
+    cursor: default;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    background: lightblue;
+} */ */
